@@ -42,10 +42,11 @@
     font-weight: 700;
 }
 
-.blue-cards-title{
-    font-size: ;
-    font-weight: ;
+.blue-card-title{
+    font-size: 1.3rem;
+    font-weight: 700;
     color: #0184fd;
+    padding: 1.4rem 0;
 }
 
 .hero-white-title{
@@ -136,6 +137,26 @@ img.menu{
 /* MAIN //////////////////////////*/
 main section:nth-child(even){
     background-color: #9692e3;
+}
+
+/* MAIN - BLUE CARDS //////////////////////////*/
+section.blue-cards{
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    padding: 0 7.5%;
+}
+
+.blue-card{
+    background-color: #b5ddff;
+    border-radius: 1.4rem;   
+    padding: 1.4rem;
+    text-align: center;
+}
+
+.blue-cards .text{
+    color: #4b4b4b;
+    line-height: 1.6rem;
+    font-size: 0.9rem;
 }
 
 /* FOOTER //////////////////////////*/
