@@ -1,0 +1,27 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* STARTER-PACK */
+.flexbox{
+    display: flex;
+}
+
+.flexbox-c{
+    display: flex;
+    flex-direction: column;
+}
+
+/* UTILITIES */
+
+/* CONTAINERS */
+
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
