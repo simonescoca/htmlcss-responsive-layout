@@ -1,4 +1,4 @@
-/* RESET */
+/* RESET //////////////////////////*/
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: sans-serif;
 }
 
-/* STARTER-PACK */
+/* STARTER-PACK //////////////////////////*/
 .flexbox{
     display: flex;
 }
@@ -16,12 +16,116 @@
     flex-direction: column;
 }
 
-/* UTILITIES */
+/* UTILITIES //////////////////////////*/
+.pill{
+    padding: ;
+    border-radius: ;
+}
 
-/* CONTAINERS */
+.white-pill{
+    background-color: white;
+    color: black;
+}
 
-/* HEADER */
+.blue-pill{
+    background-color: #0184fd;
+    color: white;
+}
 
-/* MAIN */
+.violet-pill{
+    background-color: #9792e4;
+    color: white;
+}
 
-/* FOOTER */
+.monospace{
+    font-family: monospace;
+    font-weight: 700;
+}
+
+.blue-cards-title{
+    font-size: ;
+    font-weight: ;
+    color: #0184fd;
+}
+
+.hero-white-title{
+    font-size: ;
+    font-weight: ;
+    color: white;
+}
+
+.hero-black-title{
+    font-size: ;
+    font-weight: ;
+    color: black;
+}
+
+.testimonials-title, 
+.benefits-title,
+.get-started-title{
+    font-size: ;
+    font-weight: ;
+}
+
+.capital-letters{
+    font-family: ;
+    text-transform: uppercase;
+}
+
+.testimonials-title{
+    color: #9792e4;
+}
+
+.testimonials-cl{
+    font-size: ;
+    font-weight: ;
+    color: black;
+}
+
+.benefits-title{
+    color: white;
+}
+
+.about-us-title{
+    font-size: ;
+    font-weight: ;
+    color: #9792e4;
+}
+
+.get-started-cl{
+    font-size: ;
+    font-weight: ;
+    color: #cbc9f1;
+}
+
+.get-started-title{
+    color: white;
+}
+
+.get-started-promo{
+    font-size: ;
+    font-weight: ;
+    color: #fdc15f;
+}
+
+/* CONTAINERS //////////////////////////*/
+
+
+
+/* HEADER //////////////////////////*/
+header .text{
+    color: black;
+    font-size: ;
+    line-height: 1.4rem;
+}
+
+/* MAIN //////////////////////////*/
+main section:nth-child(even){
+    background-color: #9692e3;
+}
+
+/* FOOTER //////////////////////////*/
+footer .text{
+    color: white;
+    font-size: ;
+}
