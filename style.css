@@ -109,14 +109,28 @@
 }
 
 /* CONTAINERS //////////////////////////*/
-
+.container{
+    padding: 0 7.5%;
+}
 
 
 /* HEADER //////////////////////////*/
-header .text{
-    color: black;
-    font-size: ;
-    line-height: 1.4rem;
+header{
+    background-color: #0184fd;
+    padding: 4vw 0;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.logo{
+    height: 50px;
+}
+
+img.menu{
+    height: 40px;
 }
 
 /* MAIN //////////////////////////*/
