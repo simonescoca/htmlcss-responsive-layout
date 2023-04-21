@@ -432,6 +432,62 @@ section.blue-cards{
     padding: 1.5rem 0;
 }
 
+/* MAIN - ABOUT US //////////////////////////*/
+.about-us{
+    padding-bottom: 4.5rem;
+}
+
+.about-us-title{
+    color: #9692e3;
+    font-size: 2.4rem;
+    padding-top: 6rem;
+    padding-bottom: 2.8rem;
+    font-weight: bold;
+}
+
+.about-us .text{
+    font-size: 1.05rem;
+    line-height: 2.8rem;
+    padding-bottom: 2.5rem;
+}
+
+.about-us-img{
+    height: 50vw;
+    width: 50vw;
+    border-radius: 50%;
+    position: relative;
+}
+
+.about-us-img::before{
+    content: "\"";
+    font-weight: bold;
+    font-size: 8rem;
+    color: #9692e3;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.about-us-img img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about-us-subtitle{
+    color: #9692e3;
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    padding: 2rem 0 1rem;
+}
+
+.linkedin{
+    height: 1.4rem;
+    vertical-align: middle;
+}
 
 /* FOOTER //////////////////////////*/
 footer .text{
