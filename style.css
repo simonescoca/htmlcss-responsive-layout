@@ -76,17 +76,20 @@ a{
 .testimonials-title, 
 .benefits-title,
 .get-started-title{
-    font-size: ;
-    font-weight: ;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .capital-letters{
-    font-family: ;
     text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
 }
 
 .testimonials-title{
     color: #9792e4;
+    text-align: center;
+    padding-bottom: 3rem;
 }
 
 .testimonials-cl{
@@ -229,7 +232,7 @@ section.blue-cards{
 }
 
 .phone{
-    height: 350px;
+    height: 80vw;
     position: relative;
     top: 1.7rem;
 }
@@ -308,6 +311,87 @@ section.blue-cards{
     color: black;
     line-height: 2.8rem;
     text-align: center;
+}
+
+/* MAIN - TESTIMONIALS //////////////////////////*/
+.testimonials{
+    padding-bottom: 6rem;
+}
+
+.testimonials .capital-letters{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.testimonials .text{
+    text-align: center;
+    line-height: 1.9rem;
+    padding-bottom: 3rem;
+}
+
+.violet-cards{
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.violet-card{
+    background-color: #9692e3;
+    border-radius: 1.7rem;   
+    padding: 1.8rem;
+    text-align: center;
+}
+
+.face1,
+.face2,
+.face3{
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.face1 img,
+.face2 img,
+.face3 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.violet-card .text{
+    color: white;
+    line-height: 1.9rem;
+    padding-top: 1rem;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.violet-card .text::before{
+    content: "\"";
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+    position: relative;
+    top: 1.5rem;
+}
+
+.violet-card .text::after{
+    content: "\"";
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+    position: relative;
+    top: 1.5rem;
+    line-height: 0;
+}
+
+.violet-card .capital-letters{
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 0;
 }
 
 /* FOOTER //////////////////////////*/
