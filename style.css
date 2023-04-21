@@ -61,15 +61,16 @@ a{
 }
 
 .hero-white-title{
-    font-size: ;
-    font-weight: ;
     color: white;
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding-bottom: 4.5rem
 }
 
 .hero-black-title{
-    font-size: ;
-    font-weight: ;
-    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 2rem 0;
 }
 
 .testimonials-title, 
@@ -127,11 +128,12 @@ a{
 .mar-bot{
     margin-bottom: 1.6rem;
 }
+
 /* CONTAINERS //////////////////////////*/
 .container{
-    padding: 0 7.5%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
 }
-
 
 /* HEADER //////////////////////////*/
 header{
@@ -256,8 +258,61 @@ section.blue-cards{
     }
 }
 
+/* MAIN - HERO //////////////////////////*/
+.hero{
+    padding-bottom: 4.5rem;
+}
+
+.hero .text{
+    color: white;
+    line-height: 1.6rem;
+    font-size: 0.9rem;
+    padding-bottom: 2.5rem;
+}
+
+.hero .girl-container{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.hero .girl{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.white-card{
+    background-color: white;
+    border-radius: 1.8rem;   
+    padding: 1.4rem;
+    text-align: center;
+}
+
+.white-card .boy{
+    width: 100%;
+}
+
+.white-card .text{
+    color: black;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.peculiar-pill{
+    background-color: #9792e4;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    display: inline-block;
+    color: black;
+    line-height: 2.8rem;
+    text-align: center;
+}
+
 /* FOOTER //////////////////////////*/
 footer .text{
     color: white;
+    line-height: ;
     font-size: ;
 }
