@@ -92,38 +92,14 @@ a{
     padding-bottom: 3rem;
 }
 
-.testimonials-cl{
-    font-size: ;
-    font-weight: ;
-    color: black;
-}
-
 .benefits-title{
     color: white;
     padding: 4rem 0;
     text-align: center
 }
 
-.about-us-title{
-    font-size: ;
-    font-weight: ;
-    color: #9792e4;
-}
-
-.get-started-cl{
-    font-size: ;
-    font-weight: ;
-    color: #cbc9f1;
-}
-
 .get-started-title{
     color: white;
-}
-
-.get-started-promo{
-    font-size: ;
-    font-weight: ;
-    color: #fdc15f;
 }
 
 .pad-bot{
@@ -489,9 +465,71 @@ section.blue-cards{
     vertical-align: middle;
 }
 
+/* MAIN - GET STARTED //////////////////////////*/
+.get-started{
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    text-align: center;
+}
+
+.get-started .capital-letters{
+    color: rgb(232, 232, 232);
+    padding-bottom: 2rem;
+}
+
+.get-started-promo{
+    color: #fdc15f;
+    padding: 3rem 0;
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+
+.get-started .text{
+    line-height: 1.7rem;
+    color: white;
+}
+
+.peculiar-pill2{
+    padding: 1.4rem 4.4rem;
+    border-radius: 3rem;
+    display: inline-block;
+    background-color: white;
+    color: #9692e3;
+    font-weight: bold;
+    margin: 2rem 0;
+    font-family: monospace;
+    font-size: 1.1rem;
+}
+
+.text2{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.underlined{
+    text-decoration: underline;
+    color: white;
+    font-size: 0.9rem;
+}
+
 /* FOOTER //////////////////////////*/
+footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #333333;
+    text-align: center;
+}
 footer .text{
     color: white;
-    line-height: ;
-    font-size: ;
+    line-height: 1.3rem;
+    font-size: 0.85rem;
+}
+
+footer .text:first-child{
+    padding-bottom: 3.5rem
+}
+
+footer a{
+    color: #9692e3;
+    text-decoration: underline;
 }
