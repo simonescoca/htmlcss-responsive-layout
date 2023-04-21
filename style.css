@@ -245,6 +245,15 @@ section.blue-cards{
     .container{
         padding: 0 15%;
     }
+
+    .blue-card:first-of-type{
+        display: flex;
+    }
+
+    .phone{
+        position: relative;
+        top: 1.4rem;
+    }
 }
 
 /* FOOTER //////////////////////////*/
