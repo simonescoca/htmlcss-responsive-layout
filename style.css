@@ -233,7 +233,8 @@ section.blue-cards{
 
 @media screen and (min-width: 768px) {
     .container{
-        padding: 0 15%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .blue-card:first-of-type{
