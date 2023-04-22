@@ -300,6 +300,36 @@ section.blue-cards{
     text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+    .hero{
+        display: flex;
+    }
+
+    .container{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .not-white-card{
+        padding-right: 3rem;
+        text-align: center;
+    }
+
+    .hero .girl-container{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .white-card{
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    .white-card .boy{
+        width: 35%;
+    }
+}
+
 /* MAIN - TESTIMONIALS //////////////////////////*/
 .testimonials{
     padding-bottom: 6rem;
