@@ -1,0 +1,1 @@
+Non sono riuscito a fare responsive la sezione "testimonials" del main, perchè mettendo in flex il contenuto delle card, le immagini dei visi venivano ovali e non circolari, anche se la height e la width del container img erano uguali entrambe a 50vw. Non si tratta nemmeno di un align-items: stretch, perche sostituendo con "center" non cambia nulla.
