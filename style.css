@@ -518,6 +518,32 @@ section.blue-cards{
     vertical-align: middle;
 }
 
+@media screen and (min-width: 480px) {
+    .about-us{
+        display: flex;
+    }
+
+    .about-us-face-description{
+        padding: 6rem 0 0 2rem;
+    }
+
+    .about-us-img{
+        height: 35vw;
+        width: 35vw;
+    }    
+}
+
+@media screen and (min-width: 768px) {
+    .about-us-face-description{
+        padding: 6rem 0 0 4rem;
+    }
+
+    .about-us-img{
+        height: 20vw;
+        width: 20vw;
+    }    
+}
+
 /* MAIN - GET STARTED //////////////////////////*/
 .get-started{
     padding-top: 4.5rem;
