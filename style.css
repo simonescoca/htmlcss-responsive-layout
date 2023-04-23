@@ -346,16 +346,12 @@ section.blue-cards{
     padding-bottom: 3rem;
 }
 
-.violet-cards{
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
 .violet-card{
     background-color: #9692e3;
     border-radius: 1.7rem;   
     padding: 1.8rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .face1,
@@ -411,6 +407,12 @@ section.blue-cards{
     padding: 0;
 }
 
+/* @media screen and (min-width: 480px) {
+    .violet-card{
+        display: flex;
+    }
+} */
+
 /* MAIN - BENEFITS //////////////////////////*/
 .benefits{
     padding-bottom: 4rem;
@@ -445,6 +447,18 @@ section.blue-cards{
     color: rgb(66, 66, 66);
     line-height: 1.4rem;
     padding: 1.5rem 0;
+}
+
+@media screen and (min-width: 480px) {
+    .white-sheet{
+        width: calc(50% - 1rem);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .white-sheet{
+        width: calc((100% - 4rem) / 3);
+    }
 }
 
 /* MAIN - ABOUT US //////////////////////////*/
